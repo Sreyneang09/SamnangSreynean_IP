@@ -20,22 +20,23 @@
   
   <style scoped>
   .category {
-    background-color: #f0f0f0; /* Change this to your desired background color */
-    border: 1px solid #ccc; /* Frame or box around the photo */
+    background-color: #f0f0f0; 
     padding: 10px;
     margin: 10px;
     text-align: center;
     color: black;
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 8px; 
     width: 150px;
     height: 185px;
-    
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
   
     
 
 
 
   }
+  .category:hover { transform: translateY(-10px); /* Pop up effect */ box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */ }
   .category img {
     width: 100px;
     height: 100px;

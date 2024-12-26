@@ -46,11 +46,11 @@ export default {
   margin: 10px;
   width: 450px;
   height: 250px;
-
-
-
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.1);
+  
   color: black;
 }
+
 .promotion-content { 
   display: flex; 
   align-items: center; 
